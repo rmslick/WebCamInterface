@@ -4,7 +4,7 @@ WebCamInterface is intended as an image processing education tool for kids but i
 
 Suggestions welcome.  
 
-NOTE: If any attempt to cite this work is attempted, it will be summarily rejected.  Steal as you will.
+
 ## Requirements
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install opencv and numpy.
@@ -29,4 +29,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 
 ## License
-[Lol.]
+lol.
