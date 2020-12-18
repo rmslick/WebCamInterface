@@ -19,8 +19,8 @@ pip install numpy
 ```python
 webCam = WebCamInterface("HelloWorld.avi") # set up and initialize
 frame = webCam.readFrame() #obtain image from webcam
-webCam.writeFrame(frame)
-webCam.showFrame(frame)
+webCam.writeFrame(frame) # Write frame to  video file
+webCam.showFrame(frame) # Show frame
 wc.CleanUp()
 ```
 
@@ -29,4 +29,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 
 ## License
-[No claim on licensing whatsoever. Take it if you want it.](https://choosealicense.com/licenses/mit/)
+[Lol.]
