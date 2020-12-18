@@ -57,6 +57,21 @@ class WebCamInterface:
         self.cap.release()
         self.out.release()
         cv2.destroyAllWindows()
+    def WriteOnFrame(self, frame, text):
+        # describe the type of font 
+        # to be used. 
+        font = cv2.FONT_HERSHEY_SIMPLEX 
+    
+        # Use putText() method for 
+        # inserting text on video 
+        cv2.putText(frame,  
+                    text,  
+                    (50, 50),  
+                    font, 1,  
+                    (0, 255, 255),  
+                    2,  
+                    cv2.LINE_4) 
+        return frame
 #webCam = WebCamInterface("HelloWorld.avi")
 #while True:
 #    frame = webCam.readFrame()
