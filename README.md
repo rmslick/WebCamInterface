@@ -1,6 +1,6 @@
 # WebCamInterface
 
-WebCamInterface is intended as an image processing education tool for kids but is useful for hackers born in the 20th century as well. WebCamInterface.pw is a wrapper class around opencv meant to reduce unsavory details required to perform basic image processing tasks.  
+WebCamInterface is intended as an image processing education tool for kids but is useful for hackers born in the 20th century as well. WebCamInterface.py is a wrapper class around opencv meant to reduce unsavory details required to perform basic image processing tasks.  
 
 Suggestions welcome.  
 
