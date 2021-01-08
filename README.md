@@ -10,8 +10,9 @@ Suggestions welcome.
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install opencv and numpy.
 
 ```bash
-pip install opencv-python
-pip install numpy
+python 3.8.2
+Tested on Ubuntu 20.04
+See requirements.txt for package dependencies.
 ```
 
 ## Usage
