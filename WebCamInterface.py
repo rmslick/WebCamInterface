@@ -19,7 +19,7 @@ class WebCamInterface:
             "4k": (3840, 2160),
         }
         self.VIDEO_TYPE = {'avi': cv2.VideoWriter_fourcc(*'XVID'),'mp4': cv2.VideoWriter_fourcc(*'XVID')}
-        self.cap = cv2.VideoCapture(0)
+        self.cap = cv2.VideoCapture(-1)
         self.out = self.InitializeVideoWriter()
     # Camera settings below
     def change_res(self, width, height):
@@ -40,6 +40,8 @@ class WebCamInterface:
     def InitializeVideoWriter(self):
         return cv2.VideoWriter(self.filename, self.get_video_type(), 25, self.get_dims( self.res))
     # Fun stuff below
+    def SaveImage(self, fileName, frame):
+        cv2.imwrite(fileName, frame) 
     def readFrame(self):
         ret, frame = self.cap.read()
         return frame
