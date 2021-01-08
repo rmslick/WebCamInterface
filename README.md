@@ -8,7 +8,9 @@ Suggestions welcome.
 ## Requirements
 
 python 3.8.2
+
 Tested on Ubuntu 20.04
+
 See also [requirements.txt](https://github.com/rmslick/WebCamInterface/blob/master/requirements.txt)
 
 
