@@ -7,13 +7,10 @@ Suggestions welcome.
 
 ## Requirements
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install opencv and numpy.
-
-```bash
 python 3.8.2
 Tested on Ubuntu 20.04
-See requirements.txt for package dependencies.
-```
+See also [requirements.txt](https://github.com/rmslick/WebCamInterface/blob/master/requirements.txt)
+
 
 ## Usage
 
