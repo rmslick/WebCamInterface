@@ -38,7 +38,7 @@ def AddFrameTitle(text, frame):
                 2,  
                 cv2.LINE_4)
     return frame
-
+'''
 while True:
     # Capture frame from VC
     colorFrame = GetFrame()
@@ -51,3 +51,4 @@ while True:
         break
 
 CleanUp()
+'''

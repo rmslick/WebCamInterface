@@ -1,10 +1,13 @@
-from WebCamInterface import WebCamInterface
-
-webCam = WebCamInterface("HelloWorld.avi")
+from WebCamInterface import *
 while True:
-    frame = webCam.readFrame()
-    webCam.writeFrame(frame)
-    webCam.showFrame(frame)
-    if webCam.userQuit():
-        webCam.CleanUp()
+    # Capture frame from VC
+    colorFrame = GetFrame()
+    # Add frame title
+    colorFrame = AddFrameTitle("Security Feed", colorFrame)
+    # Display frame to window
+    ShowFrame(colorFrame)
+    # Check to see if quit
+    if CheckQuit():
         break
+
+CleanUp()
