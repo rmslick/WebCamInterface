@@ -38,6 +38,8 @@ def AddFrameTitle(text, frame):
                 2,  
                 cv2.LINE_4)
     return frame
+def SaveFrame(name,frame):
+    cv2.imwrite(name, frame) 
 '''
 while True:
     # Capture frame from VC
